@@ -1,0 +1,314 @@
+/* BODY */
+body {
+  margin: 0;
+  padding: 0; }
+
+/* HEADER & NAV BAR */
+nav {
+  font-size: 25px;
+  font-family: 'Bebas Neue', cursive; }
+  nav a {
+    color: #f0f7f4ff !important; }
+
+.nav-logo {
+  height: 85px;
+  width: 350px; }
+
+.navbar {
+  background-color: #02586f !important;
+  display: flex; }
+
+a.nav-link:hover {
+  background-color: #02586f;
+  color: #f6a703 !important; }
+
+.navbar-dark .navbar-toggler {
+  border-color: #f0f7f4ff; }
+
+.dropdown-menu {
+  background-color: #02586f;
+  border: 0; }
+
+.dropdown-item {
+  color: #f0f7f4ff;
+  font-size: 25px; }
+
+a.dropdown-item:hover {
+  background-color: #02586f;
+  color: #f6a703 !important; }
+
+/* CODIGO COMUN A HOME Y A CADA CIUDAD */
+.title {
+  color: #02586f;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: bold; }
+
+.descriptions, .description-team {
+  color: black;
+  font-family: "Lato", sans-serif;
+  text-align: justify;
+  padding: 1rem; }
+
+/* SECCION CENTRAL DE HOME */
+h1 {
+  font-size: 5vh; }
+
+.section-1 {
+  background-color: #D3DAD6;
+  padding: 20px 0 20px 0; }
+
+.section-2 {
+  background-color: #A2E3C4;
+  padding: 10px 0 10px 0; }
+
+.divider-1 {
+  background-image: linear-gradient(to bottom, #D3DAD6, #A2E3C4);
+  height: 5vh; }
+
+.divider-2 {
+  background-image: linear-gradient(to bottom, #A2E3C4, #D3DAD6);
+  height: 5vh; }
+
+.divider-3 {
+  background-image: linear-gradient(to bottom, white, #D3DAD6);
+  height: 5vh; }
+
+.section-bottom {
+  background-color: #D3DAD6;
+  padding: 20px 0 20px 0;
+  height: 40vh; }
+
+.video {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+video {
+  width: 100%; }
+
+/* FOTOS HOME CON OVERLAY */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  width: 85vw;
+  margin: 1rem auto; }
+
+.bg, .overlay {
+  text-align: center; }
+
+img, .overlay {
+  transition: .3s all;
+  border-radius: 3px; }
+
+.bg {
+  float: left;
+  max-width: 24%;
+  position: relative;
+  margin: .5%; }
+  .bg img {
+    width: 100%;
+    margin-bottom: -4px; }
+  .bg .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    color: #f0f7f4ff;
+    opacity: 0; }
+    .bg .overlay h4 {
+      padding-top: 20%;
+      font-family: "Lato", sans-serif;
+      font-size: 4vh; }
+    .bg .overlay .bg-overlay-link {
+      text-decoration: none;
+      color: #f0f7f4ff; }
+  .bg:hover .overlay {
+    opacity: 1; }
+  .bg:hover img {
+    -webkit-filter: blur(2px);
+    filter: blur(2px); }
+
+@media screen and (max-width: 1148px) {
+  .bg {
+    max-width: 23%;
+    margin: 1%; } }
+
+@media screen and (max-width: 768px) {
+  .section-bottom {
+    height: 100vh; }
+  .bg {
+    float: none;
+    max-width: 40%;
+    margin: 5% auto; } }
+
+@media screen and (max-width: 567px) {
+  .section-bottom {
+    height: 90vh; }
+  .bg {
+    float: none;
+    max-width: 45%;
+    margin: 3% auto; } }
+
+/* OUR TEAM */
+.section-3 {
+  background-image: linear-gradient(to bottom, #D3DAD6, #022a35);
+  padding: 20px 0 40px 0; }
+
+.article-flex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.article-picture {
+  width: 50vh;
+  height: 35vh;
+  border: 8px solid #f0f7f4ff;
+  transform: rotate(350deg); }
+
+.description-team {
+  color: #f0f7f4ff !important;
+  font-weight: bold; }
+
+@media screen and (max-width: 768px) {
+  .article-flex {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center; } }
+
+/* SECCION CENTRAL DE CADA CIUDAD */
+.section-pictures {
+  background-image: url("../media/GE_Fondo.png");
+  background-repeat: round;
+  padding: 30px; }
+
+.section-description {
+  background-color: #D3DAD6;
+  padding: 30px 100px 20px 100px; }
+
+a.btn.btn-info {
+  opacity: 0.7; }
+
+.btn.btn-primary {
+  font-family: "Lato", sans-serif; }
+
+.details {
+  color: black;
+  font-family: "Lato", sans-serif;
+  text-align: justify; }
+
+table {
+  font-family: "Lato", sans-serif; }
+
+th, td, caption {
+  text-align: center; }
+
+.section-book {
+  background-color: #D3DAD6; }
+
+#book {
+  color: #f6a703;
+  font-family: "Lato", sans-serif;
+  background-color: #02586f;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+/* SECCION CENTRAL BOOKNG FORM */
+.titleForm {
+  color: #02586f;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  font-weight: bold; }
+
+fieldset {
+  background-color: #D3DAD6;
+  border-radius: 10px;
+  margin: 0 30% 20px 30%;
+  padding: 10px;
+  border: solid 1px black; }
+
+input:hover {
+  background-color: #A2E3C4; }
+
+select:hover {
+  background-color: #A2E3C4; }
+
+textarea:hover {
+  background-color: #A2E3C4; }
+
+.form {
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem; }
+
+textarea#message {
+  width: 100%; }
+
+button[type=submit], button[type=reset] {
+  width: 49%;
+  font-weight: bold;
+  border: none;
+  color: #f6a703;
+  font-family: "Lato", sans-serif;
+  background-color: #02586f;
+  border-radius: 3px; }
+
+/* FOOTER */
+footer {
+  background-color: #02586f;
+  font-family: "Lato", sans-serif;
+  color: #f0f7f4ff;
+  font-weight: 300;
+  padding: 10px 0 10px 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center; }
+
+footer h3 {
+  font-size: 3vh;
+  flex-grow: 1; }
+
+footer p {
+  flex-grow: 1; }
+
+footer a {
+  color: #f6a703;
+  text-decoration: none; }
+
+footer a:hover {
+  text-decoration: none;
+  color: #f6a703; }
+
+/* MEDIA QUERIES */
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: 3vh; }
+  .title {
+    font-size: 3vh; }
+  .descriptions, .description-team {
+    font-size: 2vh; }
+  .bottomSection {
+    padding: 5px 0 5px 0; }
+  fieldset {
+    margin: 0 15% 20px 15%; }
+  footer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center; } }
+
+@media all and (max-width: 480px) {
+  fieldset {
+    margin: 0 0 20px 0; } }
