@@ -387,7 +387,7 @@ footer a:hover{
     h1{
         font-size: $text-size;
     }
-    .title{
+    .title, #book{
         font-size: $text-size;
     }
     .descriptions, .details, .table{
@@ -408,6 +408,9 @@ footer a:hover{
     }
     .section-description{
         padding: 30px 50px 20px 50px;
+    }
+    a.btn.btn-info{
+        font-size: ($text-size)-1;
     }
     fieldset{
         margin: 0 15% 20px 15%;
@@ -432,7 +435,7 @@ footer a:hover{
         height: 60px;
         width: 200px;
     }
-    .title{
+    .title, #book{
         font-size: ($text-size)-1;
     }
     .descriptions, .details, .table{
@@ -444,6 +447,9 @@ footer a:hover{
     }
     .section-description{
         padding: 30px 25px 20px 25px;
+    }
+    a.btn.btn-info{
+        font-size: ($text-size)-2;
     }
     fieldset{
         margin: 0 0 20px 0;
