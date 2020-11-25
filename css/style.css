@@ -14,11 +14,6 @@ nav {
   height: 85px;
   width: 350px; }
 
-@media screen and (max-width: 567px) {
-  .nav-logo {
-    height: 75px;
-    width: 300px; } }
-
 .navbar {
   background-color: #02586f !important;
   display: flex; }
@@ -153,7 +148,9 @@ img, .overlay {
   .bg {
     float: none;
     max-width: 40%;
-    margin: 5% auto; } }
+    margin: 5% auto; }
+    .bg .overlay h4 {
+      font-size: 3vh; } }
 
 @media screen and (max-width: 567px) {
   .section-bottom {
@@ -161,7 +158,9 @@ img, .overlay {
   .bg {
     float: none;
     max-width: 45%;
-    margin: 3% auto; } }
+    margin: 3% auto; }
+    .bg .overlay h4 {
+      font-size: 2vh; } }
 
 @media screen and (max-width: 480px) {
   .section-bottom {
@@ -187,16 +186,6 @@ img, .overlay {
 .description-team {
   color: #f0f7f4ff !important;
   font-weight: bold; }
-
-@media screen and (max-width: 768px) {
-  .article-flex {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-around;
-    align-items: center; }
-  .article-picture {
-    width: 35vh;
-    height: 25vh; } }
 
 /* SECCION CENTRAL DE CADA CIUDAD */
 .section-pictures {
@@ -309,10 +298,20 @@ footer a:hover {
     font-size: 3vh; }
   .title {
     font-size: 3vh; }
-  .descriptions, .description-team {
+  .descriptions, .description-team, .details, .table {
     font-size: 2vh; }
+  .article-flex {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center; }
+  .article-picture {
+    width: 35vh;
+    height: 25vh; }
   .bottomSection {
     padding: 5px 0 5px 0; }
+  .section-description {
+    padding: 30px 50px 20px 50px; }
   fieldset {
     margin: 0 15% 20px 15%; }
   footer {
@@ -321,6 +320,23 @@ footer a:hover {
     justify-content: flex-start;
     align-items: center; } }
 
+@media screen and (max-width: 567px) {
+  .nav-logo {
+    height: 75px;
+    width: 300px; } }
+
 @media all and (max-width: 480px) {
+  .nav-logo {
+    height: 60px;
+    width: 200px; }
+  .title {
+    font-size: 2vh; }
+  .descriptions, .description-team, .details, .table {
+    font-size: 1vh; }
+  .article-picture {
+    width: 28vh;
+    height: 20vh; }
+  .section-description {
+    padding: 30px 25px 20px 25px; }
   fieldset {
     margin: 0 0 20px 0; } }
