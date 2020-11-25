@@ -14,6 +14,11 @@ nav {
   height: 85px;
   width: 350px; }
 
+@media screen and (max-width: 567px) {
+  .nav-logo {
+    height: 75px;
+    width: 300px; } }
+
 .navbar {
   background-color: #02586f !important;
   display: flex; }
@@ -158,6 +163,10 @@ img, .overlay {
     max-width: 45%;
     margin: 3% auto; } }
 
+@media screen and (max-width: 480px) {
+  .section-bottom {
+    height: 70vh; } }
+
 /* OUR TEAM */
 .section-3 {
   background-image: linear-gradient(to bottom, #D3DAD6, #022a35);
@@ -184,7 +193,10 @@ img, .overlay {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
-    align-items: center; } }
+    align-items: center; }
+  .article-picture {
+    width: 35vh;
+    height: 25vh; } }
 
 /* SECCION CENTRAL DE CADA CIUDAD */
 .section-pictures {
