@@ -107,7 +107,7 @@ h1{
 .section-bottom{
     background-color: $color-grey;
     padding: 20px 0 20px 0;
-    height: 40vh;
+    height: 30vh;
 }
 
 .video{
@@ -192,11 +192,11 @@ img, .overlay {
 
 @media screen and (max-width: 768px) {
     .section-bottom {
-        height: 100vh;
+        height: 98vh;
     }
     .bg {
         float: none;
-        max-width: 40%;
+        max-width: 42%;
         margin: 5% auto;
         .overlay h4 {
             font-size: $text-size;
@@ -206,11 +206,11 @@ img, .overlay {
 
 @media screen and (max-width: 567px) {
     .section-bottom {
-        height: 90vh;
+        height: 93vh;
     }
     .bg {
         float: none;
-        max-width: 45%;
+        max-width: 47%;
         margin: 3% auto;
         .overlay h4 {
             font-size: ($text-size)-1;
@@ -220,7 +220,7 @@ img, .overlay {
 
 @media screen and (max-width: 480px) {
     .section-bottom {
-        height: 70vh;
+        height: 75vh;
     }
 }
 
