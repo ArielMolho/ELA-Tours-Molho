@@ -218,9 +218,24 @@ img, .overlay {
     }
 }
 
+@media screen and (max-width: 520px) {
+    .section-bottom {
+        height: 85vh;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .section-bottom {
         height: 75vh;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .section-bottom {
+        height: 85vh;
+    }
+    .bg {
+        max-width: 60%;
     }
 }
 
